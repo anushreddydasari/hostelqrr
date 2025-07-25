@@ -1,3 +1,16 @@
+Your requirements.txt file looks correct for basic usage. If you are seeing an error, please provide the error message for more specific help.
+
+Common issues:
+- Make sure there are no extra spaces or invisible characters.
+- Ensure you are running:  
+    ```
+    pip install -r requirements.txt
+    ```
+- If you see a specific package error, check its spelling and compatibility with your Python version.
+
+Let me know the exact error for targeted assistance.
+
+
 Flask
 qrcode
 PyMySQL
