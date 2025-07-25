@@ -2,3 +2,4 @@ Flask
 qrcode
 PyMySQL
 gunicorn
+Pillow
