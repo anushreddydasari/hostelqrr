@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel QR Menu System</title>
+</head>
+<body>
+    <h2>Welcome to the Hotel QR Menu System!</h2>
+    <h3>Generate QR for Table:</h3>
+    <ul>
+        {% for table in tables %}
+        <li>
+            <a href="/generate_qr/{{ table }}">Generate QR for Table {{ table }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

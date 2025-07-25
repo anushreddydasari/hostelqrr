@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table {{ table }} Menu</title>
+</head>
+<body>
+    <h2>Welcome to Table {{ table }}</h2>
+    <h3>Menu</h3>
+    <ul>
+        {% for item in menu_items %}
+        <li>
+            <strong>{{ item[0] }}</strong> - ₹{{ item[1] }} ({{ item[2] }})
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

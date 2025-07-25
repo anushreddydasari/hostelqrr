@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR for Table {{ table_id }}</title>
+</head>
+<body>
+    <h2>QR Code for Table {{ table_id }}</h2>
+    <p>Scan this QR to view the menu:</p>
+    <img src="/{{ qr_path }}" width="250">
+    <p><strong>Or open this link:</strong><br>{{ qr_url }}</p>
+    <a href="/">← Back to Home</a>
+</body>
+</html>
