@@ -10,9 +10,3 @@ Common issues:
 
 Let me know the exact error for targeted assistance.
 
-
-Flask
-qrcode
-PyMySQL
-gunicorn
-Pillow
